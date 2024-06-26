@@ -118,6 +118,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const middleName = document.getElementById('middleName').value;
         const lastName = document.getElementById('lastName').value;
         const course = document.getElementById('course').value;
+        const section = document.getElementById('section').value;
         const lastSchool = document.getElementById('lastSchool').value;
         const email = document.getElementById('email').value;
         const contactNumber = document.getElementById('contactNumber').value;
@@ -166,6 +167,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         first_name: firstName,
                         middle_name: middleName,
                         last_name: lastName,
+                        course: course,
+                        section: section,
                         last_school: lastSchool,
                         email: email,
                         contact_number: contactNumber,

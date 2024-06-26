@@ -117,6 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const firstName = document.getElementById('firstName').value;
         const middleName = document.getElementById('middleName').value;
         const lastName = document.getElementById('lastName').value;
+        const course = document.getElementById('course').value;
         const lastSchool = document.getElementById('lastSchool').value;
         const email = document.getElementById('email').value;
         const contactNumber = document.getElementById('contactNumber').value;

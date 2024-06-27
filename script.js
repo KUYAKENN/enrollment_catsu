@@ -122,6 +122,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const section = document.getElementById('section').value;
         const lastSchool = document.getElementById('lastSchool').value;
         const email = document.getElementById('email').value;
+        const address = document.getElementById('address').value;
         const contactNumber = document.getElementById('contactNumber').value;
         const paymentStatus = document.getElementById('paymentStatus').value === 'paid';
         const scholarship = document.getElementById('scholarship').value;
@@ -173,6 +174,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         year: year,
                         last_school: lastSchool,
                         email: email,
+                        address: address,
                         contact_number: contactNumber,
                         payment_status: paymentStatus,
                         scholarship: scholarship,
